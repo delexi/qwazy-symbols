@@ -35,8 +35,7 @@
                 android:layout_height="fill_parent"
                 android:id="@+id/btnTopRight"
                 android:layout_column="1"
-                android:layout_weight="1"
-                android:src="@drawable/circle_button" />
+                android:layout_weight="1" />
         </TableRow>
 
         <TableRow
