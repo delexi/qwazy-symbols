@@ -11,22 +11,22 @@ import android.util.Log;
 
 import static android.graphics.Paint.Style.FILL;
 
-/**
- * Created by delexi on 11/26/14.
- */
+
+
 public class CircleDrawable extends Drawable {
+
+
     private Paint paint;
 
     public CircleDrawable() {
         paint = new Paint();
-        paint.setColor(0xffffff);
+        paint.setColor(0xffffffaa);
         paint.setStyle(FILL);
         paint.setStrokeWidth(2);
     }
 
     @Override
     public void draw(Canvas canvas) {
-        Log.d(getClass().getSimpleName(), "Draw a circle");
         canvas.drawCircle(50, 50, 50, paint);
     }
 
