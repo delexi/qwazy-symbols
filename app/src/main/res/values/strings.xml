@@ -5,5 +5,12 @@
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_activity_symbol_output">SymbolOutputActivity</string>
+    <string name="game_end_message">Game over! You made it to level %d!</string>
+    <string name="level_complete_message">You completed level %d!</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="game_rules">Please pair your device with the Connection Machine before you start. The game works as follows: You are shown a series of symbols on the Connection Machine. After all symbols have appeared, you enter the same series of symbols via the touchscreen on your device. If you remembered the series correctly, you advance a level and start over with a longer series. If you typed a wrong symbol, you drop back to level 1 and have to start over. Press \"Start Game\" to start playing!</string>
+    <string name="start_game">Start Game</string>
 
 </resources>

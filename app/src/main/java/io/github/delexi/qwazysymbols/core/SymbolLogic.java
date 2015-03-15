@@ -6,7 +6,7 @@ import java.util.Stack;
 /**
  * Created by delexi on 11/26/14.
  */
-public interface Logic {
+public interface SymbolLogic {
     /**
      * Returns a random sequence of {@code length} symbols.
      * @param length number of symbols to be generated
@@ -22,4 +22,6 @@ public interface Logic {
      * @return {@code true} if head and {@code toCheck} are equal, false otherwise
      */
     boolean checkHead(Iterator<Symbol> sequence, Symbol toCheck);
+
+    void startNewGame();
 }

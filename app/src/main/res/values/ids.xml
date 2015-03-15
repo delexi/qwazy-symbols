@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="connection_failed" type="id">Could not conncet to Connection Machine. Please make
+        sure your device is paired with the Connection Machine and try again.
+    </item>
+</resources>
